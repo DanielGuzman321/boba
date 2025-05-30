@@ -74,15 +74,16 @@
         <div class="menu-button w-nav-button">
           <div class="icon w-icon-nav-menu"></div>
         </div>
-        <div class="navbar-socials"><a href="https://dexscreener.com/" target="_blank"
-            class="social-link-blocks-navbar w-inline-block"><img
+        <div class="navbar-socials navbar-header-icons">
+          <a href="https://dexscreener.com/" target="_blank" class="social-link-blocks-navbar w-inline-block"><img
               src="../cdn.prod.website-files.com/664c43e90d550aa2d5871129/6670ee42df0096b4e3f7bfb4_icons8-stocks-96.png"
               loading="lazy" width="52" alt="" /></a><a href="https://x.com/" target="_blank"
             class="social-link-blocks-navbar w-inline-block"><img
               src="../cdn.prod.website-files.com/664c43e90d550aa2d5871129/x-logo1.png" loading="lazy" width="52"
               alt="" /></a><a href="https://t.me/" target="_blank" class="social-link-blocks-navbar w-inline-block"><img
               src="../cdn.prod.website-files.com/664c43e90d550aa2d5871129/6670ee55c1fd03e1a353b243_icons8-telegram-96.png"
-              loading="lazy" width="56" alt="" /></a></div>
+              loading="lazy" width="56" alt="" /></a>
+        </div>
       </div>
     </div>
   </div>
@@ -405,15 +406,54 @@
       </footer>
     </main>
   </div>
+  <style>
+    .navbar-socials {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .social-link-blocks-navbar img {
+      width: 48px;
+      height: auto;
+      transition: transform 0.2s ease;
+    }
+
+    .social-link-blocks-navbar img:hover {
+      transform: scale(1.1);
+    }
+
+    @media screen and (max-width: 767px) {
+      .navbar-socials {
+        justify-content: center !important;
+        flex-direction: row;
+        gap: 16px;
+        margin-top: 16px;
+      }
+
+      .social-link-blocks-navbar {
+        display: inline-block !important;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      .navbar-header-icons {
+        display: none !important;
+      }
+    }
+  </style>
   <section class="uui-banner19_component">
     <div class="uui-page-padding-2">
       <div class="uui-container-large-2">
         <div class="uui-banner19_wrapper">
           <div class="uui-banner19_content">
             <div class="uui-banner19_icon-wrapper"><img
-                src="../cdn.prod.website-files.com/664c43e90d550aa2d5871129/664c4619fe7375c892167ba0_Icon.png"
-                loading="lazy" sizes="100vw"
-                srcset="https://cdn.prod.website-files.com/664c43e90d550aa2d5871129/664c4619fe7375c892167ba0_Icon-p-500.png 500w, https://cdn.prod.website-files.com/664c43e90d550aa2d5871129/664c4619fe7375c892167ba0_Icon-p-800.png 800w, https://cdn.prod.website-files.com/664c43e90d550aa2d5871129/664c4619fe7375c892167ba0_Icon-p-1080.png 1080w, https://cdn.prod.website-files.com/664c43e90d550aa2d5871129/664c4619fe7375c892167ba0_Icon-p-1600.png 1600w, https://cdn.prod.website-files.com/664c43e90d550aa2d5871129/664c4619fe7375c892167ba0_Icon.png 2000w"
+                src="../cdn.prod.website-files.com/664c43e90d550aa2d5871129/Drink_trans.png" loading="lazy"
+                sizes="100vw"
+                srcset="https://cdn.prod.website-files.com/664c43e90d550aa2d5871129/Drink_trans.png 500w, https://cdn.prod.website-files.com/664c43e90d550aa2d5871129/Drink_trans.png 800w, https://cdn.prod.website-files.com/664c43e90d550aa2d5871129/Drink_trans.png 1080w, https://cdn.prod.website-files.com/664c43e90d550aa2d5871129/Drink_trans.png 1600w, https://cdn.prod.website-files.com/664c43e90d550aa2d5871129/Drink_trans.png 2000w"
                 alt="" /></div>
           </div>
           <div class="uui-button-row-2">
@@ -427,9 +467,9 @@
           </div>
           <div class="uui-banner19_content">
             <div class="uui-banner19_icon-wrapper"><img
-                src="../cdn.prod.website-files.com/664c43e90d550aa2d5871129/664c4619fe7375c892167ba0_Icon.png"
-                loading="lazy" sizes="100vw"
-                srcset="https://cdn.prod.website-files.com/664c43e90d550aa2d5871129/664c4619fe7375c892167ba0_Icon-p-500.png 500w, https://cdn.prod.website-files.com/664c43e90d550aa2d5871129/664c4619fe7375c892167ba0_Icon-p-800.png 800w, https://cdn.prod.website-files.com/664c43e90d550aa2d5871129/664c4619fe7375c892167ba0_Icon-p-1080.png 1080w, https://cdn.prod.website-files.com/664c43e90d550aa2d5871129/664c4619fe7375c892167ba0_Icon-p-1600.png 1600w, https://cdn.prod.website-files.com/664c43e90d550aa2d5871129/664c4619fe7375c892167ba0_Icon.png 2000w"
+                src="../cdn.prod.website-files.com/664c43e90d550aa2d5871129/Drink_trans.png" loading="lazy"
+                sizes="100vw"
+                srcset="https://cdn.prod.website-files.com/664c43e90d550aa2d5871129/Drink_trans.png 500w, https://cdn.prod.website-files.com/664c43e90d550aa2d5871129/Drink_trans.png 800w, https://cdn.prod.website-files.com/664c43e90d550aa2d5871129/Drink_trans.png 1080w, https://cdn.prod.website-files.com/664c43e90d550aa2d5871129/Drink_trans.png 1600w, https://cdn.prod.website-files.com/664c43e90d550aa2d5871129/Drink_trans.png 2000w"
                 alt="" /></div>
           </div>
         </div>
