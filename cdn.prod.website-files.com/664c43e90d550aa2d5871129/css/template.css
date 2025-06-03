@@ -1,6 +1,7 @@
 html, body {
-  min-height: 100%;
-  background-color: #000000;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -225,14 +226,14 @@ html {
   height: 100%;
 }
 
+
 body {
-  color: #333;
-  background-color: #fff;
-  min-height: 100%;
-  margin: 0;
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
+  background-image: url("https://cdn.prod.website-files.com/664c43e90d550aa2d5871129/66f28cc9b1f576e81f1ab943_Untitled%20design%20(20)%20copy.png");
+  background-color: #000000;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 img {
@@ -3954,6 +3955,7 @@ figcaption {
 .container {
   padding-left: 15px;
   padding-right: 15px;
+  min-height: 100vh;
 }
 
 ._29i2 {
