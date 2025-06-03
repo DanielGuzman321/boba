@@ -1,3 +1,7 @@
+html, body {
+  min-height: 100%;
+  background-color: #000000;
+}
 
 html {
   -webkit-text-size-adjust: 100%;
@@ -4011,6 +4015,7 @@ figcaption {
 
 .body {
   background-image: url("https://cdn.prod.website-files.com/664c43e90d550aa2d5871129/66f28cc9b1f576e81f1ab943_Untitled design (20)%20copy.png");
+  background-color: #000000;
   background-position: 50%;
   background-size: cover;
   background-attachment: fixed;
