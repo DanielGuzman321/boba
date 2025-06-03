@@ -1,3 +1,4 @@
+
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -2104,12 +2105,21 @@ textarea.w-input, textarea.w-select {
 }
 
 body {
+  margin: 0;
+  padding: 0;
+  background-image: url("/cdn.prod.website-files.com/664c43e90d550aa2d5871129/Sin título-2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: #000;
   cursor: none;
   font-family: Varela Round, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
 }
+
+
 
 h1 {
   letter-spacing: .1em;
@@ -3059,12 +3069,11 @@ figcaption {
 }
 
 .mint-component { 
-  background-color: #dce6f6;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 85vh;
+  height: 84.7vh;
   display: flex;
 }
 
@@ -3083,7 +3092,7 @@ figcaption {
 
 .centered-flexbox.deee3 {
   color: #f3f3f3;
-  margin-top: 77px;
+  margin-top: 100px;
 }
 
 .centered-flexbox._333ddd {
@@ -3436,7 +3445,7 @@ figcaption {
 }
 
 .image {
-  width: 900px;
+  width: 800px;
 }
 
 .image-2 {
@@ -5601,7 +5610,7 @@ figcaption {
   .mint-component {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    height: 90vh;
+    height: 84.6vh;
   }
 
   .centered-flexbox {
@@ -5927,4 +5936,35 @@ figcaption {
   font-weight: 100;
   font-style: normal;
   font-display: swap;
+}
+
+/* animación de entrada */
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* aplica a cada ícono */
+.boba-icon {
+  opacity: 0;
+  animation: pop-in 0.6s ease-out forwards;
+}
+
+/* delay para cada uno */
+.boba-icon:nth-child(1) {
+  animation-delay: 0.3s;
+}
+
+.boba-icon:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.boba-icon:nth-child(3) {
+  animation-delay: 0.3s;
 }
