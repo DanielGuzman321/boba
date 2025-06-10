@@ -6182,7 +6182,6 @@ figcaption {
   .boba-icons {
     margin-bottom: 30px !important;
   }
-
   .centered-flexbox.gsvgs {
     margin-top: 10px !important;
   }
@@ -6194,8 +6193,7 @@ body {
 }
 
 /* 1) Body como flex-col de 100vh sin scroll */
-html,
-body {
+html, body {
   height: 100vh !important;
   margin: 0 !important;
   display: flex !important;
@@ -6210,8 +6208,7 @@ body {
   flex-direction: column;
   overflow: hidden;
 }
-
-.section-mint {
+ .section-mint {
   /* 100vh sin scroll */
   min-height: 100vh;
   height: 100vh;
@@ -6248,3 +6245,5 @@ body {
     flex: 0 0 80px !important;
   }
 }
+
+
